@@ -1,0 +1,35 @@
+---
+import Card from "../display/Card.astro";
+import { Icon } from 'astro-icon/components'
+---
+
+<Card class="h-16 w-full">
+  <nav>
+    <ul class="flex font-space-mono text-white gap-4">
+      <li class="border py-1 rounded-2xl px-4 hover:bg-white/10 cursor-pointer">
+        <a href="#" class="hover:underline flex gap-2 items-center">
+          <Icon name="solar:home-2-broken" />
+          Home
+        </a>
+      </li>
+      <li class="border py-1 rounded-2xl px-4 hover:bg-white/10 cursor-pointer">
+        <a href="#" class="hover:underline flex gap-2 items-center">
+          <Icon name="solar:medal-ribbons-star-broken" />
+          Skills
+        </a>
+      </li>
+      <li class="border py-1 rounded-2xl px-4 hover:bg-white/10 cursor-pointer">
+        <a href="#" class="hover:underline flex gap-2 items-center">
+          <Icon name="solar:book-bookmark-broken" />
+          Historia
+        </a>
+      </li>
+      <li class="border py-1 rounded-2xl px-4 hover:bg-white/10 cursor-pointer">
+        <a href="#" class="hover:underline flex gap-2 items-center">
+          <Icon name="solar:pen-2-broken" />
+          Blog
+        </a>
+      </li>
+    </ul>
+  </nav>
+</Card>
